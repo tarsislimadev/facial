@@ -2,15 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Facial</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facial</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div id="app"></div>
-  <script type="module" src="index.js"></script>
+    <video id="video" width="640" height="480" autoplay muted hidden></video>
+    <canvas id="canvas" width="640" height="480"></canvas>
+
+    <script src="https://docs.opencv.org/4.x/opencv.js" async onload="onOpenCvReady();"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
