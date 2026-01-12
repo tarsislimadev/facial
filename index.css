@@ -1,5 +1,6 @@
 body {
   background-color: #000000;
+  color: #ffffff;
 }
 
 canvas {
@@ -7,4 +8,12 @@ canvas {
   display: block;
   margin: 0 auto;
   width: 640px;
+}
+
+a {
+  color: #ffffff;
+}
+
+#title {
+  text-align: center;
 }
