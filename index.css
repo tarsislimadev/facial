@@ -1,6 +1,10 @@
+/* Styles */
+
+
 body {
   background-color: #000000;
   color: #ffffff;
+  font-family: monospace;
 }
 
 canvas {
@@ -12,8 +16,16 @@ canvas {
 
 a {
   color: #ffffff;
+  text-decoration: none;
 }
 
-#title {
-  text-align: center;
+#title,
+#title div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#title a {
+  padding: 1rem;
 }
